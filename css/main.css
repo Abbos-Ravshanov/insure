@@ -1,0 +1,453 @@
+
+@font-face {
+    font-family: "Karla";
+    font-weight: 400;
+    font-display: swap; 
+    src: url("../fonts/karla-v23-latin-regular.woff2") format("woff2"), 
+    url("../fonts/karla-v23-latin-regular.woff") format("woff"); 
+}
+
+@font-face {
+    font-family: "Karla";
+    font-weight: 700;
+    font-display: swap; 
+    src: url("../fonts/karla-v23-latin-700.woff2") format("woff2"), 
+    url("../fonts/karla-v23-latin-700.woff") format("woff"); 
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Karla";
+    font-weight: 700;
+    font-display: swap; 
+    margin: 0;
+}
+
+.container {
+    width: 1150px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 21px;
+}
+
+.site-img {
+    margin-right: 500px;
+}
+
+.sitenav-list {
+    display: flex;
+    list-style: none;
+}
+
+.sitenav-item {
+    margin-right: 25px;
+}
+
+.sitenav-link {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    color: #837D88;
+    text-decoration: none;
+}
+
+.sitenav-link:hover {
+    color: #2C2830;
+}
+
+.sitenav-link:active {
+    color: #2C2830;
+}
+
+.sitenav-submit-link {
+    font-family: "Karla";
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    background-color: #fff;
+    border: 1.5px solid #2c2830;
+    letter-spacing: 1.5px;
+    padding: 12px 28px;
+    color: #2c2830;
+}
+
+.sitenav-submit-link:hover {
+    color: #FFFFFF;
+    background-color: #2C2830;
+    border: 1.5px solid #2C2830;
+}
+
+.sitenav-submit-link:active {
+    color: #FFFFFF;
+    background-color: #2C2830;
+    border: 1.5px solid #2C2830;
+}
+
+.hero {
+    margin: 0;
+}
+
+.site-header {
+    margin: 0;
+}
+
+.site-main {
+    background-color: #2d2641;
+    margin-bottom: 150px;
+}
+
+.hero__wrapper {
+    width: 540px;
+    text-align: left;
+    margin: 0;
+}
+
+.site-hero-arrow {
+    display: inline-block;
+    width: 150px;
+    height: 1px;
+    left: 165px;
+    background-color: #fff;
+    
+}
+
+.site-hero-title {
+    font-family: "Karla";
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    padding-top: 63px;
+    color: #fff;
+}
+
+.site-hero-desc {
+    font-family: "Karla";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+.site-hero-link {
+    display: inline-block;
+    font-family: "Karla";
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    background-color: #2d2641;
+    border: 1.5px solid #fff;
+    letter-spacing: 1.5px;
+    padding: 12px 28px;
+    margin-bottom: 127px;
+    color: #fff;
+}
+
+.site-hero-link:hover {
+    color: #2C2830;
+    background: #FFFFFF;
+    border: 1.5px solid #FFFFFF;
+}
+
+.site-hero-link:active {
+    color: #2C2830;
+    background: #FFFFFF;
+    border: 1.5px solid #FFFFFF;
+}
+
+.site-hero-image-wrapper {
+    position: absolute;
+    width: 1004px;
+    height: 670px;
+    margin-left: 570px;
+    top: 194px;
+    background-image: url("../images/familyinsuresite.png");  
+    background-repeat: no-repeat;  
+}
+
+.site-services {
+    margin-bottom: 158px;
+}
+
+.services-wrapper {
+    text-align: left;
+}
+
+.services-heading {
+    font-family: "Karla";
+    font-weight: 400;
+    margin-bottom: 96px;
+    font-size: 72px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    color: #2C2830;
+}
+
+.services-list {
+    display: flex;
+    padding: 0;
+}
+
+.services-item {
+    list-style: none;
+}
+
+.site-hero-arrow:nth-child(1) {
+    display: inline-block;
+    width: 150px;
+    height: 1px;
+    left: 165px;
+    background-color: #C396C6;;
+    margin-top: 105px;
+}
+
+.services-title {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: -0.388889px;
+    color: #2c2830;
+}
+
+.services-desc-wrapper {
+    margin-right: 30px;
+    width: 350px;
+}
+
+.services-desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #837D88;
+}
+
+.site-article {
+    margin-bottom: 150px;
+    background-color: #2d2641;;
+    
+}
+
+.site-article-wrapper {
+    display: flex;
+    
+}
+
+.site-article-title-wrapper {
+    width: 475px;
+    display: flex;
+    
+}
+
+.site-article-title {
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -0.777778px;
+    color: #fff;
+    
+}
+
+.site-article-link-wrapper {
+    display: flex;
+    
+}
+
+.site-article-link {
+    display: inline-block;
+    padding: 12px 24px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    border: 1.5px solid #fff;
+    background-color: #2D2641;;
+    text-align: center;
+    letter-spacing: 1.5px;
+    margin-top: 105px;
+    margin-bottom: 105px;
+    margin-left: 314px;
+    color: #fff;
+}
+
+.site-article-link:hover {
+    color: #2C2830;
+    background: #FFFFFF;
+    border: 1.5px solid #FFFFFF;
+}
+
+.site-footer {
+    padding-top: 67px;
+    padding-bottom: 64px;
+    background-color: #fafafa;
+}
+
+.site-footer-logotip-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-footer-span {
+    display: inline-block;
+    width: 1110px;
+    height: 1px;
+    background-color: #dadada;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    margin-bottom: 48px;
+    margin-top: 36px;
+}
+
+.site-footer-socials {
+    margin-right: 16px;
+}
+
+.site-footer-socials:hover {
+    background-color: #2c2830;
+}
+
+.site-footer-socials:active {
+    background-color: #2c2830;
+
+}
+
+.site-footer-info-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 200px;
+}
+
+.site-footer-about-company {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1.5px;
+    margin-bottom: 36px;
+    color: #837d88;
+}
+
+.site-footer-link {
+    display: flex;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1.5px;
+    margin-bottom: 16px;
+    color: #2d2641;
+}
+
+.site-footer-link:hover {
+    text-decoration-line: underline;
+    color: #2D2641;
+}
+
+.site-footer-link:active {
+    text-decoration-line: underline;
+    color: #2D2641;
+}
+
+.site-footer-link-second {
+    display: flex;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1.5px;
+    margin-bottom: 16px;
+    color: #2d2641;
+}
+
+.site-footer-link-second:hover {
+    text-decoration-line: underline;
+    color: #2D2641;
+}
+
+.site-footer-link-second:active {
+    text-decoration-line: underline;
+    color: #2D2641;
+}
+
+.site-footer-about-company-second {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1.5px;
+    margin-bottom: 36px;
+    color: #837d88;
+}
+
+.site-footer-link-third {
+    display: flex;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1.5px;
+    margin-bottom: 16px;
+    color: #2d2641;
+}
+
+.site-footer-link-third:hover {
+    text-decoration-line: underline;
+    color: #2D2641;
+}
+
+.site-footer-link-third:active {
+    text-decoration-line: underline;
+    color: #2D2641;
+}
+
+.site-footer-about-company-third {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1.5px;
+    margin-bottom: 36px;
+    color: #837d88;
+}
+
+.site-footer-link-fourth {
+    display: flex;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1.5px;
+    margin-bottom: 16px;
+    color: #2d2641;
+}
+
+.site-footer-link-fourth:hover {
+    text-decoration-line: underline;
+    color: #2D2641;
+}
+
+.site-footer-link-fourth:active {
+    text-decoration-line: underline;
+    color: #2D2641;
+}
+
+.site-footer-about-company-fourth {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1.5px;
+    margin-bottom: 36px;
+    color: #837d88;
+}
+
+
